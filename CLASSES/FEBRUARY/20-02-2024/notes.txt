@@ -59,3 +59,11 @@ KNOWLEDGE:
     # LINUX KVM (KERNEL-BASED VIRTUAL MACHINE)
         -
         
+    # VAGRANT:
+        USEFULL COMMANDS:
+            vagrant init name_of_box
+            vagrant up
+            vagrant ssh
+            logout
+            vagrant box list
+            vagrant box remove name_of_box
