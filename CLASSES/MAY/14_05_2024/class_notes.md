@@ -82,3 +82,32 @@ How to do that?
 Most cloud providers offer auto scaling services. Kubernets also provides a Horizontal Pod Autoscaler
 
 Scaling options are used for scaling separeted groups (AWS has it)
+
+## BUILDING CLOUDS
+
+Starts with hardware: hypervisors, network infra, storage.
+
+An operating system
+
+I have a clound only if the IT system can be:
+
+- accessed by other computers via network
+- Contains a repository
+- Can be provisioned and scaled by its admin
+
+It starts with:
+
+- type 1 hypervisor
+- HV management with specific tools (VmWare vCenter, proxmox VE, oVirt)
+- as infra grows, you want to provide more automation tools and PI´s
+
+## REDHAT OPENSTACK
+
+This is a cloud OS that controls large pools of cumpute, storage and networking resources throughtout a datacenter.
+
+All resources are managed and provisioned through APIs with common authentication mechanisms.
+
+### OPENEBULA
+
+This is the alternative with someone wants to explore and understand base ground knowlodge of private cloud computing.
+
