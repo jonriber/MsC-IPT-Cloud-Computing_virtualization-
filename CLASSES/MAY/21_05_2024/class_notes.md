@@ -61,3 +61,26 @@ Instead, they create a VM with all these spces using their well thought infrastr
     - each container with a unique namespace
     - processes running inside the container are limited by cgroups
 
+## Docker alternatives
+
+- Docker (obviously)
+- Cri-o
+- podman (application)
+
+## Container Engine
+
+    program that manages container.
+    Allocates system resources to the running containers by communicating with the kernel using the provided `system call`
+
+### Analogy with Virtualization
+
+    container engine is like a hypervisor
+    container is a VM
+
+    Main differences are:
+
+    - different degrees of isolation:
+      - VM is completely isolated system
+      - Container is just a running process, isolated by namespace and cgroup
+    
+    
